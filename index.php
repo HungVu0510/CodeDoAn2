@@ -12,7 +12,11 @@
         $result = mysqli_query($con, $query);
 
         if (mysqli_num_rows($result)==1) {
-            header("Location: welcome.php");
+            if ($user_name == 'user1' && $user_password == '123456') {
+                header("Location: admin.php");
+            }else {
+                header("Location: welcome.php");
+            }   
         } else {
             $msg = "Incorrect Password";
         }
