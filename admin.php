@@ -117,14 +117,13 @@
 
                 </div>
 
-                <div class="user">
-                    <img src="img/34.jpg" alt="">
-                </div>
 
-                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="productManagement.php">Admin Management</a>
+
+                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="productManagement.php">Songs Management</a>
+                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="userManagement.php">User Management</a>
 
                 <div>
-                    <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="index.php">Sign Out 123</a>
+                    <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="index.php">Sign Out</a>
                 </div>
             </nav>
 
