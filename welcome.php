@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Music Website</title>
+    <style>
+        .addPlaylist :hover {
+            display: block
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -98,7 +103,7 @@
             <nav>
                 <ul>
                     <li>Discover <span></span></li>
-                    <li><a href="library.html" class="library">MY LIBRARY</a></li>
+                    <li><a href="library.php" class="library">MY LIBRARY</a></li>
                     <li>RADIO</li>
                 </ul>
 
@@ -160,6 +165,7 @@
                         <h5>On My Way <br>
                             <div class="subtitle">Alan Walker</div>
                         </h5>
+                        <button style="" class="addPlayList">Add To Play List</button>
                     </li>
                     <li class="songItem">
                         <div class="img_play">

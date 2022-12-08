@@ -12,8 +12,8 @@
         $result = mysqli_query($con, $query);
 
         if (mysqli_num_rows($result)==1) {
-            if ($user_name == 'user1' && $user_password == '123456') {
-                header("Location: admin.php");
+            if ($user_name == 'user1' && $user_password == '123456' || $user_name == 'user2' && $user_password == '123456') {
+                header("Location: admin.php"); 
             }else {
                 header("Location: welcome.php");
             }   
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="right_bx1">
-            <img src="./img//login_png.jpg" alt="">
+            <img src="./img/login_png.jpg" alt="">
             <!-- <h3>Inccorect Password</h3> -->
             <?php
                 echo ('<h3>'.$msg.'</h3>');

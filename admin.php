@@ -12,11 +12,9 @@
 <body>
     <header>
         <div class="menu_side">
-            <h1>Playlist</h1>
+            <h1>Admin Page</h1>
             <div class="playlist">
                 <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
-                <h4><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
-                <h4><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
             </div>
 
             <div class="menu_song">
@@ -98,8 +96,6 @@
             <nav>
                 <ul>
                     <li>Discover <span></span></li>
-                    <li><a href="library.html" class="library">MY LIBRARY</a></li>
-                    <li>RADIO</li>
                 </ul>
 
                 <div class="search">
@@ -117,23 +113,14 @@
 
                 </div>
 
-
-
-                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="productManagement.php">Songs Management</a>
-                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="userManagement.php">User Management</a>
-
                 <div>
                     <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="index.php">Sign Out</a>
                 </div>
             </nav>
 
             <div class="content">
-                <h1>Alen Walker-Fade</h1>
-                <p>You were the shadow to my light did you feel us Another start you fade <br> Away afraid our aim is out of sight Wanna see us Alive </p>
-                <div class="buttons">
-                    <button>PLAY</button>
-                    <button>FOLLOW</button>
-                </div>
+                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px; margin-right: 10px" href="productManagement.php">Songs Management</a>
+                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="userManagement.php">User Management</a>
             </div>
 
             <div class="popular_song">

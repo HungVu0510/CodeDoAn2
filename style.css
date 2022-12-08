@@ -55,7 +55,7 @@ header .menu_side h1 {
     font-size: 20px;
     margin: 15px 0px 0px 20px;
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--blue-color)
 }
 
 header .menu_side .playlist {
@@ -651,6 +651,7 @@ header .song_side .popular_song {
     height: auto;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 20px;
     /* border: 1px solid var(--white-color); */
     color: var(--white-color);
 }
@@ -689,11 +690,12 @@ header .song_side .popular_song .pop_song::-webkit-scrollbar {
 
 header .song_side .popular_song .pop_song li {
     min-width: 100px;
-    height: 140px;
+    height: 150px;
     list-style-type: none;
     margin-right: 10px;
     transition: .3s linear;
 }
+
 
 header .song_side .popular_song .pop_song li:hover {
     background: rgb(105, 105, 170, .1);
