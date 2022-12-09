@@ -103,7 +103,7 @@
             <nav>
                 <ul>
                     <li>Discover <span></span></li>
-                    <li><a href="library.php" class="library">MY LIBRARY</a></li>
+                    <li><a href="playlistManagement.php" class="library">MY LIBRARY</a></li>
                     <li>RADIO</li>
                 </ul>
 
@@ -122,9 +122,7 @@
 
                 </div>
 
-                <div class="user">
-                    <img src="img/34.jpg" alt="">
-                </div>
+                <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="playlistManagement.php">Playlist Management</a>
 
                 <a style="color: white; text-decoration: none; background-color: #4c5262; padding: 8px; border-radius: 5px" href="index.php">Sign Out</a>
             </nav>
